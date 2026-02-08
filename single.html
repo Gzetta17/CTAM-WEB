@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>CTAM - VA CON VOS SIEMPRE</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Free Website Template" name="keywords">
+        <meta content="Free Website Template" name="description">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="img/logo.png" rel="icon">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Righteous&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+        <link href="css/style1.css" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/animations.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    
+
+
+
+<div class="top-bar-ctam">
+    <div class="container-fluid">
+        <div class="top-bar-content">
+            <div class="info-links">
+                <div class="info-item"><i class="bi bi-geo-alt"></i><span>Av. San Martín 304 – Adelia María</span></div>
+                <div class="info-item"><i class="bi bi-telephone"></i><span>03585 420199</span></div>
+                <div class="info-item"><i class="bi bi-envelope"></i><span>info@ctam.com.ar</span></div>
+            </div>
+            <div class="social-links">
+                <a href="https://www.facebook.com/profile.php?id=100063699875874" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/ctam_va_con_vos/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/5493585420199" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+        <!-- Nav Bar Start -->
+<div class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <div class="container-fluid">
+         <a href="index.html" class="navbar-brand">
+    <img src="img/logo.png" alt="CTAM Logo" class="brand-logo"></a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav ms-auto">
+                <a href="index.html" class="nav-item nav-link active">INICIO</a>
+                <a href="about.html" class="nav-item nav-link">NOSOTROS</a>
+                
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">SERVICIOS</a>
+                    <div class="dropdown-menu">
+                        <a href="telefonia.html" class="dropdown-item">Telefonía</a>
+                        <a href="ctamtv.html" class="dropdown-item">CTAM TV</a>
+                        <a href="internet.html" class="dropdown-item">Internet</a>
+                        <a href="saneamiento.html" class="dropdown-item">Saneamiento</a>
+                        <a href="gpscam.html" class="dropdown-item">Control Satelital</a>
+                        <a href="tarjeta.html" class="dropdown-item">Tarjeta CTAM</a>
+                    </div>
+                </div>
+                <a href="tarjeta.html" class="nav-item nav-link">PROMOCIONES</a>
+                <a href="noticias.html" class="nav-item nav-link">NOTICIAS</a>
+                <a href="contact.html" class="nav-item nav-link">CONTACTOS</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Nav Bar End -->
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Menú Flotante de Administración -->
+    <div class="admin-drop-container">
+        <!-- Botón Toggle (Engranaje) -->
+        <button id="adminToggleBtn" class="admin-drop-btn">
+            <i class="fas fa-tools"></i>
+        </button>
+        
+        <!-- Menú Desplegable (Inicialmente invisible vía CSS) -->
+        <div id="adminDropMenu" class="admin-drop-menu">
+            <button type="button" class="admin-btn" data-bs-toggle="modal" data-bs-target="#loginPopup" id="loginMenuBtn">Login</button>
+            <button id="logoutButton" class="admin-btn" style="display: none;">Cerrar sesión</button>
+            <button id="agregarComercioBtn" class="admin-btn" style="display: none;" data-bs-toggle="modal" data-bs-target="#agregarComercioModal">Agregar Comercio</button>
+            
+            <button id="popupNavButton" class="admin-btn" style="display: none;" data-bs-toggle="modal" data-bs-target="#publicPopup">Pop-Up</button>
+        </div>
+    </div>
+
+    <div class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>COMERCIOS</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        
+
+
+
+    <!-- Sección de Comercios -->
+    <div class="franja-seccion"></div>
+    <section id="comerciosSection">
+        <div class="container">
+            <div class="row mb-5">
+            <div class="col-12 text-center">
+                <h3 class="mb-4">CATEGORIAS</h3>
+                <div id="filterButtons" class="btn-group flex-wrap" role="group" aria-label="Filtro de categorías">
+                    <button type="button" class="btn btn-primary active mx-1 my-1" data-filter="all">Todos</button>
+                    </div>
+            </div>
+        </div>
+        <div id="comerciosContainer" class="row g-4">
+            </div>
+
+            <div id="comerciosContainer" class="row g-4">
+                <!-- Los comercios se cargarán aquí -->
+            </div>
+            <div id="no-content" class="text-center text-secondary mt-5" style="display:none;">
+                <h3>No se encontraron comercios.</h3>
+            </div>
+        </div>
+    </section>
+    <div class="franja-seccion"></div>
+
+
+    <!-- Modales de Bootstrap -->
+
+    <!-- Modal de Login -->
+    <div class="modal fade" id="loginPopup" tabindex="-1" aria-labelledby="loginLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content loginBox">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h2>Acceso Administrador</h2>
+                <form id="loginForm">
+                    <input type="text" id="username" placeholder="Usuario" required>
+                    <div class="password-wrapper">
+                        <input type="password" id="password" placeholder="Contraseña" required>
+                        <span id="togglePassword" class="eye">👁</span>
+                    </div>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Publicidad (Pop-Up) -->
+    <div class="modal fade" id="publicPopup" tabindex="-1" aria-labelledby="publicPopupLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content popupContent">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <img id="publicImage" src="" alt="Publicidad" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para AGREGAR Comercio -->
+    <div class="modal fade" id="agregarComercioModal" tabindex="-1" aria-labelledby="agregarComercioLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form id="agregarComercioForm">
+                <div class="modal-header">
+                    <h5 class="modal-title">Agregar Comercio</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="comercioNombre">Nombre del Comercio</label>
+                        <input type="text" class="form-control" id="comercioNombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="comercioCategoria">Categoría</label>
+                        <input type="text" class="form-control" id="comercioCategoria" name="categoria" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="comercioDescripcion">Descripción</label>
+                        <textarea class="form-control" id="comercioDescripcion" name="descripcion" rows="4" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="comercioImagen">Imagen</label>
+                        <input type="file" class="form-control-file" id="comercioImagen" name="imagen" required>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary" id="guardarComercioBtn">Guardar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+    <!-- Modal para EDITAR Comercio -->
+    <div class="modal fade" id="editarComercioModal" tabindex="-1" aria-labelledby="editarComercioLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form id="editarComercioForm">
+                <div class="modal-header">
+                    <h5 class="modal-title">Editar Comercio</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Campo oculto para guardar el ID del comercio a editar -->
+                    <input type="hidden" id="editarComercioId" name="id">
+                    <div class="form-group">
+                        <label for="editarComercioNombre">Nombre</label>
+                        <input type="text" class="form-control" id="editarComercioNombre" name="nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="editarComercioCategoria">Categoría</label>
+                        <input type="text" class="form-control" id="editarComercioCategoria" name="categoria">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="editarComercioDescripcion">Descripción</label>
+                        <textarea class="form-control" id="editarComercioDescripcion" name="descripcion" rows="4"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="editarComercioImagen">Imagen nueva (opcional)</label>
+                        <input type="file" class="form-control-file" id="editarComercioImagen" name="imagen">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" type="submit" id="guardarCambiosComercioBtn">Guardar Cambios</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+    <!-- Modal de Confirmación para eliminar -->
+    <div class="modal fade" id="confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="confirmModalLabel">Confirmar Acción</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p id="confirmMessage">¿Estás seguro de que quieres realizar esta acción?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="cancelBtn">Cancelar</button>
+                    <button type="button" class="btn btn-danger" id="confirmBtn">Confirmar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal para AGREGAR Noticia -->
+    <div class="modal fade" id="agregarnoticiaModal" tabindex="-1" aria-labelledby="agregarNoticiaLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form id="agregarnoticiaForm" enctype="multipart/form-data">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Agregar Noticia</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="noticiaNombre">Título de la Noticia</label>
+                            <input type="text" class="form-control" id="noticiaNombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="noticiaCategoria">Categoría</label>
+                            <input type="text" class="form-control" id="noticiaCategoria" name="categoria" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="noticiaImagen">Imagen</label>
+                            <input type="file" class="form-control-file" id="noticiaImagen" name="imagen" required>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary" id="guardarnoticiaBtn">Guardar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para EDITAR Noticia -->
+    <div class="modal fade" id="editarnoticiaModal" tabindex="-1" aria-labelledby="editarNoticiaLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form id="editarnoticiaForm" enctype="multipart/form-data">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Editar Noticia</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <input type="hidden" id="editarnoticiaId" name="id">
+                        <div class="form-group">
+                            <label for="editarnoticiaNombre">Título</label>
+                            <input type="text" class="form-control" id="editarnoticiaNombre" name="nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="editarnoticiaCategoria">Categoría</label>
+                            <input type="text" class="form-control" id="editarnoticiaCategoria" name="categoria">
+                        </div>
+                        <div class="form-group">
+                            <label for="editarnoticiaImagen">Imagen nueva (opcional)</label>
+                            <input type="file" class="form-control-file" id="editarnoticiaImagen" name="imagen">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" type="submit" id="guardarCambiosnoticiaBtn">Guardar Cambios</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+<!-- Footer Start -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="footer-contact">
+                            <h2>Contactos</h2>
+                            <p><i class="fa fa-map-marker-alt"></i> 25 de Mayo ***</p>
+                            <p><i class="fa fa-phone-alt"></i> +54-3585-405009</p>
+                            <p><i class="fa fa-envelope"></i> adanchugonzalo@hotmail.com</p>
+                            <div class="footer-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-youtube"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="footer-link">
+                            <h2>ACCESOS</h2>
+                            <a href="about.html">SOBRE NOSOTROS</a>
+                            <a href="service.html">SERVICIOS</a>
+                            <a href="blog.html">INFORMACION</a>
+                            <a href="contact.html">CONTACTOS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="footer-newsletter">
+                    <!-- Mapa -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FIN Mapa -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+<!-- Copyright Start -->
+<div class="container copyright py-3">
+    <div class="row d-flex align-items-center justify-content-between">
+        <div class="col-md-6 text-center text-md-left">
+            <p class="mb-0 text-muted">&copy; <a href="#" class="text-decoration-none">CTAM</a> - Todos los derechos reservados.</p>
+        </div>
+        <div class="col-md-6 text-center text-md-right">
+            <p class="mb-0"><a href="#" class="text-decoration-none text-muted">Gonzalo Adanchú</a></p>
+        </div>
+    </div>
+</div>
+<!-- Copyright End -->
+
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+<!-- JavaScript Libraries -->
+<!-- Se actualiza JQuery a 3.5.1 para mejor compatibilidad con Bootstrap 4 -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<!-- INICIO DEL CAMBIO NECESARIO: Se reemplaza Bootstrap 5 por Bootstrap 4 (el que soluciona el menú hamburguesa) -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- FIN DEL CAMBIO NECESARIO -->
+
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="lib/isotope/isotope.pkgd.min.js"></script>
+<script src="lib/lightbox/js/lightbox.min.js"></script>
+
+<!-- Script principal -->
+<script src="js/login2.js"></script>
+</body>
+</html>
